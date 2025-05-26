@@ -2,5 +2,7 @@
   "item.first_forge_mod.omissite": "Omissite",
   "item.first_forge_mod.omissite_dust": "Omissite Dust",
 
-  "creativetab:first_mod_tab": "First Mod Tab"
+  "block.first_forge_mod.omissite_block": "Omissite Block",
+
+  "creativetab.first_mod_tab": "First Mod Tab"
 }

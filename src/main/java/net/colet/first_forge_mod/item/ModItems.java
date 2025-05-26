@@ -8,15 +8,15 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
-    public static final DeferredRegister<Item> Items =
+    public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, FirstForgeMod.MOD_ID);
 
-    public static final RegistryObject<Item> OMISSITE = Items.register("omissite",
+    public static final RegistryObject<Item> OMISSITE = ITEMS.register("omissite",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> OMISSITE_DUST = Items.register("omissite_dust",
+    public static final RegistryObject<Item> OMISSITE_DUST = ITEMS.register("omissite_dust",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
-        Items.register(eventBus);
+        ITEMS.register(eventBus);
     }
 }

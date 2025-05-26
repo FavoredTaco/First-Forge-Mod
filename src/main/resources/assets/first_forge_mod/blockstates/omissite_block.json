@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "first_forge_mod:block/omissite_block"
+    }
+  }
+}

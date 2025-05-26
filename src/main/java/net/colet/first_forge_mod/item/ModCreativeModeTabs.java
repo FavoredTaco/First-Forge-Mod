@@ -1,6 +1,7 @@
 package net.colet.first_forge_mod.item;
 
 import net.colet.first_forge_mod.FirstForgeMod;
+import net.colet.first_forge_mod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -17,6 +18,7 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.OMISSITE.get()))
                     .title(Component.translatable("creativetab.first_mod_tab"))
                     .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModBlocks.OMISSITE_BLOCK.get());
                         pOutput.accept(ModItems.OMISSITE.get());
                         pOutput.accept(ModItems.OMISSITE_DUST.get());
                     })

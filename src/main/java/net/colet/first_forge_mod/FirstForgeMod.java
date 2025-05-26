@@ -1,6 +1,7 @@
 package net.colet.first_forge_mod;
 
 import com.mojang.logging.LogUtils;
+import net.colet.first_forge_mod.block.ModBlocks;
 import net.colet.first_forge_mod.item.ModCreativeModeTabs;
 import net.colet.first_forge_mod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -28,6 +29,7 @@ public class FirstForgeMod {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
