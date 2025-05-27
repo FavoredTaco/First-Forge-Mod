@@ -3,6 +3,9 @@
   "item.first_forge_mod.omissite_dust": "Omissite Dust",
 
   "block.first_forge_mod.omissite_block": "Omissite Block",
+  "block.first_forge_mod.omissite_dust_block": "Block of Omissite Dust",
+  "block.first_forge_mod.omissite_ore": "Omissite Ore",
+  "block.first_forge_mod.deepslate_omissite_ore": "Deepslate Omissite ORe",
 
   "creativetab.first_mod_tab": "First Mod Tab"
 }

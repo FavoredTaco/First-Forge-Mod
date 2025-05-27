@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "first_forge_mod:omissite"
+    }
+  },
+  "result": "first_forge_mod:omissite_block"
+}

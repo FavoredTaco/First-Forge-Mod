@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "first_forge_mod:omissite_dust_block"
+    }
+  ],
+  "result": {
+    "item": "first_forge_mod:omissite_dust",
+    "count": 4
+  }
+}

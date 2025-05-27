@@ -19,8 +19,11 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.first_mod_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModBlocks.OMISSITE_BLOCK.get());
+                        pOutput.accept(ModBlocks.OMISSITE_DUST_BLOCK.get());
                         pOutput.accept(ModItems.OMISSITE.get());
                         pOutput.accept(ModItems.OMISSITE_DUST.get());
+                        pOutput.accept(ModBlocks.OMISSITE_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_OMISSITE_ORE.get());
                     })
                     .build());
 

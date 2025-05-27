@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "first_forge_mod:block/omissite_dust_block"
+  }
+}
