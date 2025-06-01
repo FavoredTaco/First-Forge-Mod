@@ -11,5 +11,7 @@
       "item": "first_forge_mod:omissite"
     }
   },
-  "result": "first_forge_mod:omissite_block"
+  "result": {
+    "item": "first_forge_mod:omissite_block"
+  }
 }
